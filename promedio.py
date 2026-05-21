@@ -1,0 +1,10 @@
+nombre= input('ingrese su nombre')
+apellido= input('ingrese su apellido')
+nota1= float(input('ingrese su primera nota'))
+nota2= float(input('ingrese su segunda nota'))
+nota3= float(input('ingrese su tercera nota'))
+promedio= (nota1+nota2+nota3)/3
+print('\n--- Datos del alumno ---')
+print('Nombre',nombre)
+print('Apellido', apellido)
+print('Promedio', promedio)

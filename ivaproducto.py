@@ -1,0 +1,7 @@
+producto= input('ingrese el nombre del producto')
+precio= float(input('ingrese el precio del producto'))
+iva= precio+(precio*21/100)
+print('\n--- Datos del producto ---')
+print('Producto', producto)
+print('Precio', precio)
+print('Precio final con IVA', iva)
